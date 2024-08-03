@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #D6EDFF;
+    color: #333;
+}
+
+header {
+    background-color: #478978;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2em;
+}
+
+.logo img {
+    width: 100px; /* Increased size */
+    height: auto;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+
+.nav-links li {
+    position: relative;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #59a0c3;
+    list-style: none;
+    padding: 0.5em 0;
+    border-radius: 5px;
+}
+
+.dropdown li {
+    padding: 0.5em 1em;
+}
+
+.nav-links li:hover .dropdown {
+    display: block;
+}
+
+.intro {
+    text-align: center;
+    padding: 50px;
+    background-color: #84DCC6;
+}
+
+.intro h2 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.intro p {
+    font-size: 1.2em;
+}
+
+#heading{
+    margin-left: 30px;
+}
+
+.courses {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    padding: 20px;
+    background-color: #ACD7EC;
+}
+
+.courseCard {
+    background-color: #8B95C9;
+    color: #fff;
+    border-radius: 8px;
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+.img1{
+    
+    background-image: url(course1.png);
+   
+}
+.img2{
+   
+    background-image: url(course2.png);
+    
+}
+.img3{
+    
+    background-image: url(course3.png);
+    
+}
+
+.courseCard .img {
+    border-radius: 8px;
+    height: 200px;
+    width: 300px;
+    background-size: cover;
+}
+
+.courseCard h3 {
+
+    font-size: 1.5em;
+    margin: 15px;
+}
+
+.courseCard p {
+    font-size: 1em;
+    margin: 15px;
+}
+
+.courseCard button {
+    background-color: #478978;
+    color: #fff;
+    border: none;
+    
+    
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.courseCard button:hover {
+    background-color: #84DCC6;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #478978;
+    color: #fff;
+}
